@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-div{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+h4{
+    padding-bottom: 12px;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+.btn-box {
+    position: absolute;
+    bottom: 37px;
+    left: 190px;
+    overflow-x: auto;
+}
+/*  */
+@media screen and (min-width: 320px) and (max-width: 570px) {
+    .btn-box {
+        position: absolute;
+        bottom: 37px;
+        left: 10px;
+    
+    }
+    h1{
+        font-size: 16px;
+    }
+}
